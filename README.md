@@ -1,4 +1,4 @@
-~~# Gateway
+# Gateway
 
 The system gathers currency information periodically. It provides the following endpoints: <br />
 ```/json_api/current``` <br />
@@ -77,5 +77,3 @@ curl --location --request POST 'localhost:8080/xml_api/command' \
     <history consumer="13617162" currency="EUR" period="24" />
 </command>'
 ```
-
-The response is 
