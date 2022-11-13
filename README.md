@@ -9,7 +9,7 @@ It gathers statistics about the requests and stores it in db
 ## Installation
 
 The project uses PostgreSQL, Redis, RabbitMQ; <br />
-The following need to be provided in application.properties file <br />
+The following need to be provided in ```application.properties``` file <br />
 ```properties
 redis.host=<redis host>
 redis.port=<redis port>
